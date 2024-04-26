@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+  <header class="header" id="navbar" >
+    <div class="" >
+      <div class="menu bcg  khoangcach" >
+        <div class="menu-left" id="active-menu">
+          <img src="imgs/logo.png" alt="" id="logo-header" class="logo">
+
+          <div class="item-menu">
+            <a href="" class="drop-menu">Về Chúng Tôi <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="m-trok" d="M4.23438 6.25L8.23438 10.25L12.2344 6.25" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </a>
+            <div class="submenu">
+              <a href="#" class="subitem">Về ROX Key</a>
+              <a href="#" class="subitem"> Thông điệp CEO</a>
+              <a href="#" class="subitem">Đơn vị thành viên</a>
+              <a href="#" class="subitem">Trách nhiệm xã hội</a>
+              <a href="#" class="subitem">Giải thưởng</a>
+            </div>
+          </div>
+
+          <div class="item-menu">
+            <a href="" class="drop-menu">Dịch Vụ <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="m-trok" d="M4.23438 6.25L8.23438 10.25L12.2344 6.25" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </a>
+            <div class="submenu">
+              <a href="#" class="subitem">Quản lý vận hành bất động sản</a>
+              <a href="#" class="subitem"> Quản trị nguồn lực</a>
+              <a href="#" class="subitem"> Giải pháp công nghệ</a>
+            </div>
+          </div>
+
+          <div class="item-menu">
+            <a href="" class="drop-menu">Tin Tức<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="m-trok" d="M4.23438 6.25L8.23438 10.25L12.2344 6.25" stroke="#F5F5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </a>
+            <div class="submenu">
+              <a href="#" class="subitem"><img src="" alt="" id="sub-img">Tổng hợp</a>
+              <a href="#" class="subitem"> TNTech </a>
+              <a href="#" class="subitem">TNPM</a>
+              <a href="#" class="subitem">TNTalent</a>
+            </div>
+          </div>
+
+
+          <a class="item-menu2" href="#">Quan hệ cổ đông</a>
+          <a class="item-menu2" href="#">Tuyển Dụng </a>
+          <a class="item-menu2" href="#">Liên hệ</a>
+
+        </div>
+
+        <div class="menu-right">
+          <ul class="menu2" id="">
+            <li><a href=""><img src="imgs/icon/Frame 1000002556.png" alt="" id="icon-search"></a></li>
+            <li><a href="" class="i" id="coler"><img src="imgs/icon/globe.png" alt="" id="icon-VI">VI</a></li>
+            <li><a href="" class="i" id="coler"><img src="imgs/icon/Vector.png" alt="" id="icon-dt">0987285533</a></li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="mobile-container" id="navbar-mobile">
+        <div class="logo-mobile">
+          <a href=""><img src="imgs/mobile/logo_trang.png" alt="" id="lg-mobile"></a>
+        </div>
+        <div class="menu-mobile-right">
+          <input type="checkbox" id="check" class="checkbox-mobile-menu">
+          <div class="line-checkbox"></div>
+
+          <div class="data-menu-mobile">
+            <div class="mobile1">
+              <div class="mobile-item">
+                <a href="" class="in">Trang chủ</a>
+              </div>
+              <div class="mobile-item">
+                <a href="#vct-mobile" class="in " data-toggle="collapse">Về Chúng Tôi <img src="imgs/icon/Chevron_Down.png" alt=""></a>
+                <div id="vct-mobile" class="panel-collapse collapse">
+                  <a href="#" class="subitem-mobile">Về ROX Key</a>
+                  <a href="#" class="subitem-mobile"> Thông điệp CEO</a>
+                  <a href="#" class="subitem-mobile">Đơn vị thành viên</a>
+                  <a href="#" class="subitem-mobile">Trách nhiệm xã hội</a>
+                  <a href="#" class="subitem-mobile">Giải thưởng</a>
+                </div>
+              </div>
+
+              <div class="mobile-item">
+                <a href="#dv-mobile" class="in" data-toggle="collapse">Dịch Vụ <img src="imgs/icon/Chevron_Down.png"></a>
+                <div id="dv-mobile" class="panel-collapse collapse">
+                  <a href="#" class="subitem-mobile">Quản lý vận hành bất động sản</a>
+                  <a href="#" class="subitem-mobile"> Quản trị nguồn lực</a>
+                  <a href="#" class="subitem-mobile"> Giải pháp công nghệ</a>
+                </div>
+              </div>
+              <div class="mobile-item">
+                <a href="#tt-mobile" class="in" data-toggle="collapse">Tin Tức 
+                  <img src="imgs/icon/Chevron_Down.png"> </a>
+                <div id="tt-mobile" class="panel-collapse collapse">
+                  <a href="#" class="subitem-mobile"><img src="" alt="" id="sub-img">Tổng hợp</a>
+                  <a href="#" class="subitem-mobile"> TNTech </a>
+                  <a href="#" class="subitem-mobile">TNPM</a>
+                  <a href="#" class="subitem-mobile">TNTalent</a>
+                </div>
+              </div>
+              <div class="mobile-item">
+                <a href="" class="qh-mobile">Quan hệ cổ đông</a>
+              </div>
+              <div class="mobile-item">
+                <a href="" class="td-mobile">Tuyển dụng</a>
+              </div>
+              <div class="mobile-item">
+                <a href="" class="lh-mobile">Liên hệ</a>
+              </div>
+
+
+            </div>
+            <div class="button-menu">
+              <div class="s">
+                  <a href=""> <img src="imgs/mobile/search.png" alt=""></a>
+              </div>
+              <div class="Vi">
+                <a href=""><img src="imgs/mobile/globe.png" alt="">VI</a>
+              </div>
+
+              <div class="sdt-mobile">
+                <a href="" class="box-phone"><img src="imgs/mobile/phone.png" alt="">098728 5533</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="submenu-header" id="submenu-headerdk">
+    </div>
+
+
+  </header>
+
+
+  <section class="banner">
+
+    <video autoplay muted loop src="imgs/-235a-4e4e-b4ee-63e0734d14ff.mp4" class="img-banner"></video>
+
+  </section>
+
+
+  <section class="banner-home">
+    <div class="layout">
+      <div class="img-layout">
+        <img src="imgs/Nd/banner.jpg" alt="" class="img-banner-home">
+      </div>
+
+      <div class="left-layout ">
+        <div class="khoangcach row">
+          <div class="show_vct col-12  col-lg-6">
+            <div class="vct">Về Chúng Tôi</div>
+            <h1 id="ct-coler">Công Ty Cổ Phần Thương Mại Dịch Vụ ROXKey</h1>
+            <p class="p-layout">Công Ty Cổ Phần Thương Mại Dịch Vụ ROXKey là một công ty đa ngành hoạt động trong các
+              lĩnh vực: Quản lý
+              vận hành Bất động sản (TNPM),
+              Công nghệ thông tin (TNTech), Quản trị nguồn nhân lực (TNTalent), Quản lý dự án (MANPRO).</p>
+            <a href="" class="xem-them">Xem Thêm <img src="imgs/icon/tien.png" alt=""
+                style="width: 5.38px; height: 12px;  "> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="noidung">
+    <div class="khoangcach">
+      <div class="row ">
+        <div class="col-12 col-sm-12  col-lg-4 noidung-formart">
+          <div class="dvc" style="width:192px ; height: 36px;">DỊCH VỤ CUNG CẤP</div>
+          <h2 id="title-noidung">Dịch vụ xuất sắc, chuyên nghiệp, tận tâm và luôn lấy khách hàng làm trung tâm.</h2>
+          <p class="p-noidung">Chúng tôi tự hào là đơn vị cung cấp dịch vụ chuyên nghiệp, lấy quản lý vận hành
+            Bất động sản làm trung tâm, tạo ra hệ sinh thái toàn diện với giá trị cốt lõi là nguồn nhân lực.</p>
+          <a href="" class="xem-them" style="color: #fff;">Xem Thêm <img src="imgs/icon/tien.png" alt=""
+              style="width: 5.38px; height: 12px; "> </a>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-8">
+          <div class="row" style="margin-top: 20px;">
+            <div class=" col-12 col-sm-6 col-lg-6">
+              <div class=" vanhanh-bds">
+                <img src="imgs/Nd/vanhanh.png" alt="">
+                <span>QUẢN LÝ VẬN HÀNH BẤT ĐỘNG SẢN</span>
+              </div>
+
+              <div class="quanly-nhanluc">
+                <img src="imgs/Nd/quanlinhanluc.png" alt="">
+                <span>QUẢN TRỊ NGUỒN NHÂN LỰC</span>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-6">
+              <div class="congnghe">
+                <img src="imgs/Nd/congnghe.png" alt="">
+                <span>CÔNG NGHỆ</span>
+              </div>
+              <div class="chothuebds">
+                <img src="imgs/Nd/chothuebds.png" alt="">
+                <span>CHO THUÊ BẤT ĐỘNG SẢN</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+
+  <section class="new-content">
+    <div class="khoangcach">
+
+      <h1 id="tin-tuc-nb"> Tin Tức Nổi Bật</h1>
+      <div class="row tin-tuc">
+        <span class="col-12 col-sm-6 col-lg-6 anh-holding">
+          <span class="img-tintuc-new" style="background-image: url('imgs/Nd/holding.png');"></span>
+        </span>
+        <div class="col-12 col-sm-6 col-lg-6 ">
+          <div class="mck">
+            <span class="ROXKey">ROXKey</span>
+            <span class="date-content">28/08/2023</span>
+            <h2 id="content-h2">
+              TNS Holdings chung tay cải tạo điểm trường tại Lạng Sơn
+            </h2>
+            <p class="content-p"> Sau nhiều ngày triển khai, công trình cải tạo điểm trường Làng Lầu thuộc trường mầm
+              non xã Nhất Tiến (Bắc
+              Sơn,
+              Lạng Sơn) đã kịp hoàn thành, sẵn sàng chào đón các em học sinh bước vào năm học mới.</p>
+            <a href="" class="button-xemthem">Xem Thêm <img src="imgs/icon/tiendo.png" alt=""
+                style="width: 5.38px; height: 12px;  "></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 item-content">
+          <a href="" class="new-items">
+            <div class="content-anh">
+              <div class="img-thub-new" style="background-image: url('/imgs/Nd/vhtn.png');"></div>
+            </div>
+            <div class="content1">
+              <h4>Vận hành bằng trải nghiệm, "chạm cảm xúc cư dân"</h4>
+              <div class="span-item">
+                <span class="ROXKey">TNTech</span>
+                <span class="day-content">28/11/2023</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 item-content">
+          <a href="" class="new-items">
+            <div class="content-anh" style="height: 178p9;">
+              <div class="img-thub-new" style="background-image: url('/imgs/Nd/thuchien1996.png');"></div>
+            </div>
+            <div class="content1 ">
+              <h4>TNTech thực hiện 1996 yêu cầu hỗ trợ thông tin cho TNG Holdings Vietnam trong tháng 8/2023</h4>
+              <div class="span-item">
+                <span class="ROXKey">TNTech</span>
+                <span class="day-content">28/11/2023</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 item-content">
+          <a href="" class="new-items">
+            <div class="content-anh">
+              <div class="img-thub-new" style="background-image: url('/imgs/Nd/khoahoc.png');"></div>
+            </div>
+            <div class="content1">
+              <h4>Khóa học"Tư duy dịch vụ và giải quyết vấn đề" dành cho CBNV TNTech</h4>
+              <div class="span-item">
+                <span class="ROXKey">TNTech</span>
+                <span class="day-content">28/11/2023</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 item-content">
+          <a href="" class="new-items">
+            <div class="content-anh">
+              <div class="img-thub-new" style="background-image: url('/imgs/Nd/top5.png');"></div>
+            </div>
+            <div class="content1">
+              <h4>Top 5 đơn vị cho thuê văn phòng hàng đầu Việt Nam</h4>
+              <div class="span-item">
+                <span class="ROXKey">TNTech</span>
+                <span class="day-content">28/11/2023</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="btn-xemthem">
+        <a href="" class="content-xt"> Xem Thêm <img src="imgs/icon/tien.png" alt=""></a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="cskh-home">
+    <div class="khoangcach">
+      <div id="silder2" class="owl-carousel owl-theme">
+
+        <div class="cshk row">
+          <div class="box-cskh">
+            <div class="img-cskh" style="background-image: url(imgs/Nd/ln.png);"></div>
+          </div>
+
+          <div class="left-conten-cskh ">
+
+            <div class="show_cskh col-6">
+              <h4>Lắng nghe chất lượng dịch vụ</h4>
+              <p class="p-cskh">"Lắng nghe - Thấu hiểu - Cải tiến" là nguyên tắc mà TNS Holdings và các
+                Công ty thành viên đang nâng cao chất lượng
+                dịch vụ mỗi ngày nhằm cung cấp dịch vụ xuất sắc nhất tới khách hàng.</p>
+              <a href="" class="cskh-action">Action button <img src="imgs/icon/tien.png" alt=""
+                  style="width: 5.38px; height: 12px;  "> </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="cshk row">
+          <div class="box-cskh">
+            <div class="img-cskh" style="background-image: url(imgs/Nd/ln.png);"></div>
+          </div>
+
+          <div class="left-conten-cskh ">
+
+            <div class="show_cskh col-6">
+              <h4>Lắng nghe chất lượng dịch vụ</h4>
+              <p class="p-cskh">"Lắng nghe - Thấu hiểu - Cải tiến" là nguyên tắc mà TNS Holdings và các
+                Công ty thành viên đang nâng cao chất lượng
+                dịch vụ mỗi ngày nhằm cung cấp dịch vụ xuất sắc nhất tới khách hàng.</p>
+              <a href="" class="cskh-action">Action button <img src="imgs/icon/tien.png" alt=""
+                  style="width: 5.38px; height: 12px; ; "> </a>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="cshk row">
+          <div class="box-cskh">
+            <div class="img-cskh" style="background-image: url(imgs/Nd/ln.png);"></div>
+          </div>
+
+          <div class="left-conten-cskh ">
+
+            <div class="show_cskh col-6">
+              <h4>Lắng nghe chất lượng dịch vụ</h4>
+              <p class="p-cskh">"Lắng nghe - Thấu hiểu - Cải tiến" là nguyên tắc mà TNS Holdings và các
+                Công ty thành viên đang nâng cao chất lượng
+                dịch vụ mỗi ngày nhằm cung cấp dịch vụ xuất sắc nhất tới khách hàng.</p>
+              <a href="" class="cskh-action">Action button <img src="imgs/icon/tien.png" alt=""
+                  style="width: 5.38px; height: 12px;  "> </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="prev-cskh" style="    display: flex;
+      gap: 24px;
+      right: 0px;
+      bottom: 0px;
+      justify-content: flex-end;
+      padding: 10px;">
+        <div class="owl-prev prev1" id="prev-cskh"><img src="imgs/icon/prev.png" alt=""></div>
+        <div class="owl-next  next1" id="next-cskh"><img src="imgs/icon/next.png" alt=""></div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="slide-footer">
+      <div class="khoangcach" style="border-bottom: 1px dashed #c3c0c0;">
+        <div class="slider">
+          <div class="owl-prev conten-event-perv" id="prev-logo-footer">
+            <img src="imgs/icon/prev.png" alt="">
+          </div>
+
+          <div class="silder owl-carousel owl-theme" id="slider-img">
+            <div class="">
+              <a href="" class="item"> <img src="imgs/tv-tnpmdo.svg" alt=""></a>
+            </div>
+
+            <div class="">
+              <a href="" class="item"> <img src="imgs/tv-tntechdo.svg" alt=""></a>
+            </div>
+            <div class="">
+              <a href="" class="item"> <img src="imgs/tv-tntalentdo.svg" alt=""></a>
+            </div>
+            <div class="">
+              <a href="" class="item"> <img src="imgs/tv-tnpmdo.svg" alt=""></a>
+            </div>
+          </div>
+
+          <div class="owl-next conten-event-next" id="next-logo-footer">
+            <img src="imgs/icon/next.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="khoangcach">
+        <div class="footer-content row">
+          <div class="col-12 col-sm-6 col-lg-6">
+            <div class="information">
+              <a href="" class="logo-ft"><img src="imgs/logofooter.png" alt=""></a>
+              <div class="contact">
+                <div class="fone-footer">
+                  <div class="icon-contact"><img src="imgs/icon/fone-ft.png" alt=""></div>
+                  <div class="text-contact">
+                    <a href="" class="doi-mau">024 7307 3099 (Ban Kinh doanh & MKT: 7450)
+                      Hotline: 098728 5533</a>
+                  </div>
+                </div>
+
+                <div class="mail-footer">
+                  <div class="icon-contact"><img src="imgs/icon/ic_sharp-email.png" alt=""></div>
+                  <div class="text-contact">
+                    <a href="" class="doi-mau">marketing@tnsholdings.com.vn</a>
+                  </div>
+                </div>
+
+                <div class="diachi-footer">
+                  <div class=" icon-contact"><img src="imgs/icon/diachi.png" alt=""></div>
+                  <div class="text-contact">
+                    <a href="" class="doi-mau">Tầng 25, TNR Tower, 54A Nguyễn Chí Thanh, P.Láng Thượng, Q.Đống Đa, Hà
+                      Nội</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-3 col-lg-2">
+            <div class="directional">
+              <h5 class="title-directional">Công Ty</h5>
+              <a href="" class="direct-path doi-mau">Trang Chủ</a>
+              <a href="" class="direct-path  doi-mau"> Về chúng tôi</a>
+              <a href="" class="direct-path  doi-mau">Tin Tức</a>
+              <a href="" class="direct-path  doi-mau">Tuyển Dụng</a>
+              <a href="" class="direct-path   doi-mau">Chính sách</a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-3 col-lg-2">
+            <div class="directional">
+              <h5 class="title-directional">Dịch Vụ</h5>
+              <a href="" class="direct-path doi-mau">Quản lý vận hành hành</a>
+              <a href="" class="direct-path doi-mau"> Công nghệ</a>
+              <a href="" class="direct-path doi-mau">Quản trị nguồn nhân lực</a>
+              <a href="" class="direct-path doi-mau">Cho thuê bất động sản</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2">
+            <h5 class="title-directional">Theo dõi chúng tôi</h5>
+            <a href="" class="img"><img src="imgs/icon/facebook.svg" alt=""></a>
+            <a href=""><img src="imgs/icon/X.png" alt=""></a>
+            <a href=""><img src="imgs/icon/LinkedIn.png" alt=""></a>
+            <a href="" class="img"><img src="imgs/icon/youtube.svg" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+<script src="js/script.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/header.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/hover.js"></script>
+<script src="js/menu_mobile.js"></script>
+
+</html>
